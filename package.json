@@ -2,7 +2,7 @@
   "name": "weather-app",
   "version": "1.0.0",
   "description": "Weather application",
-  "main": "views/pages/index.ejs",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
