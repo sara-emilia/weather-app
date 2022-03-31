@@ -1,0 +1,13 @@
+<fieldset>
+    <form action="/" method="post">
+      <input name="city" type="text" class="input" placeholder="Enter a city" required>
+      <input type="submit" class="button" value="Get weather">
+    </form>
+    <% if(weather !== null){ %>
+      <p><%= weather %></p>
+    <% } %>
+
+    <% if(error !== null){ %>
+      <p><%= error %></p>
+    <% } %>
+  </fieldset>
