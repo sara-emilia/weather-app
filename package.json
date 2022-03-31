@@ -1,4 +1,9 @@
 {
+  "name": "weather-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Emilia",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.2",
     "dotenv": "^16.0.0",
@@ -9,15 +14,10 @@
   "scripts": {
     "start": "node server.js"
   },
-  "name": "weather-app",
-  "version": "1.0.0",
-  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/sara-emilia/weather-app"
-  }
-  "author": "Emilia",
-  "license": "ISC",
+  },
   "description": "Weather app with API",
   "keywords": ["weather", "API"]
 }
